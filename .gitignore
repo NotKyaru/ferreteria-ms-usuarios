@@ -1,0 +1,43 @@
+# ── Build de Maven ─────────────────────────────
+target/
+HELP.md
+
+# ── Secretos: NUNCA al repositorio ─────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+
+# ── IDEs ───────────────────────────────────────
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+.sts4-cache/
+.apt_generated/
+bin/
+out/
+
+# ── Sistema y otros ────────────────────────────
+.DS_Store
+Thumbs.db
+*.log
+node_modules/
+dist/
+
+# ── Copias locales de otros repos, solo como referencia para el agente ──
+ferreteria-los-maestros/
+
+# ── Material del equipo para el agente: solo local, no se versiona ──
+CLAUDE.md
+docs/especificaciones/
+message.txt
+*.zip
